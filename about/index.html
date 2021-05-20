@@ -88,7 +88,7 @@
       
         <p>前端开发</p>
 <p>GitHub： <a target="_blank" rel="noopener" href="https://github.com/peanutwxy">peanutwxy</a></p>
-<p>邮箱：<a href="mailto:&#112;&#101;&#x61;&#110;&#x75;&#x74;&#x77;&#120;&#121;&#64;&#x67;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;">&#112;&#101;&#x61;&#110;&#x75;&#x74;&#x77;&#120;&#121;&#64;&#x67;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;</a></p>
+<p>邮箱：<a href="mailto:&#112;&#101;&#x61;&#x6e;&#117;&#116;&#119;&#120;&#121;&#x40;&#x67;&#x6d;&#97;&#x69;&#108;&#x2e;&#99;&#x6f;&#109;">&#112;&#101;&#x61;&#x6e;&#117;&#116;&#119;&#120;&#121;&#x40;&#x67;&#x6d;&#97;&#x69;&#108;&#x2e;&#99;&#x6f;&#109;</a></p>
 
       
     </div>
@@ -110,6 +110,23 @@
 
   
 
+
+	<section id="comment" class="comment">
+		<div id="gitment"></div>
+	</section>
+	<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+	<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+	<script>
+		var gitment = new Gitment({
+			owner: 'peanutwxy',
+			repo: 'peanutwxy.github.io',
+			oauth: {
+				client_id: '58bdbef00dbab989dadb',
+				client_secret: 'c773ef02',
+			},
+		})
+		gitment.render('gitment')
+	</script>
 
 
 
