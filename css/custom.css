@@ -1,0 +1,38 @@
+article .article-footer .post-tags a:before {
+  content: "";
+}
+article .article-footer .post-tags a:not(:last-of-type):after {
+  content: " ";
+}
+.site-main.posts-loop {
+  min-height: 72vh;
+}
+article .tags-cloud {
+  width: 70%;
+  margin: 6rem auto;
+}
+article .tags-cloud .post-tags {
+  padding-bottom: 2.6rem;
+}
+.archive-tag {
+  font-size: 2.8em;
+  line-height: 1;
+  position: relative;
+  color: $archiveTitleCommonColor;
+  margin: 0;
+}
+.archive-tag a {
+  color: $archiveTitleLinkCommonColor;
+}
+.archive-tag a span {
+  padding-bottom: 3px;
+  -webkit-transition: box-shadow 0.15s;
+  transition: box-shadow 0.15s;
+  box-shadow: inset 0 -2px 0 rgba(0,150,136,0);
+}
+.archive-tag a:hover {
+  color: $archiveTitleCommonColor;
+}
+.archive-tag a:hover span {
+  box-shadow: inset 0 -2px 0 rgba(0,150,136,0.4);
+}
