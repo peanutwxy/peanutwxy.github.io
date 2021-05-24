@@ -640,7 +640,6 @@ article .article-footer .article-meta a:hover {
   color: #009688;
 }
 article .article-footer .article-meta i {
-  
   vertical-align: middle;
   color: #9e9e9e;
   margin-right: 0.5rem;
@@ -656,7 +655,7 @@ article code {
   padding: 2px 4px;
   margin-left: 2px;
   margin-right: 2px;
-  color: #c7254e;
+  color: #01776c;
   white-space: normal;
   border-radius: 0;
 }
@@ -732,7 +731,7 @@ article table pre {
     color: #fff;
   }
   article code {
-    color: #f45542;
+    color: #01776c;
   }
 }
 article.archive {
